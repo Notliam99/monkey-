@@ -5,7 +5,8 @@ html, body {
     font-family: 'Anton', sans-serif;
     font-size: 200px;
     text-align: center;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.YTDfeH8WrNg-qCwnH5Q2NgHaE_%26pid%3DApi&f=1")
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.YTDfeH8WrNg-qCwnH5Q2NgHaE_%26pid%3DApi&f=1");
+    background-repeat: no-repeat;
   }
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
   div {
