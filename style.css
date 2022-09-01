@@ -7,13 +7,14 @@ html, body {
     text-align: center;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.YTDfeH8WrNg-qCwnH5Q2NgHaE_%26pid%3DApi&f=1");
     background-repeat: no-repeat;
+    background-size: auto
   }
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
   div {
     height : 50%;
     width: auto;
     font-family: 'Indie Flower', cursive;
-    font-size: 250px;
+    font-size: 100%;
     text-align: calc(center - 20px);
     top: 40%;
   }
