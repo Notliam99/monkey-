@@ -18,3 +18,24 @@ html, body {
     text-align: calc(center - 20px);
     top: 40%;
   }
+  .button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+    color: black;
+    border: 5px solid black;
+    background-color: bisque;
+  }
+  .button1:hover {
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+    background-color: black;
+  }
