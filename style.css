@@ -6,5 +6,12 @@ html, body {
     font-size: 200px;
     text-align: center;
   }
-
-  
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
+  div {
+    height : 50%;
+    width: auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 500px;
+    text-align: calc(center - 20px);
+    top: 40%;
+  }
