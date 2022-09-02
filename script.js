@@ -1,0 +1,1 @@
+document.querySelector('#button-1').addEventListener('click', function(){ console.log('The button was clicked!') });
