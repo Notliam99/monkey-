@@ -1,1 +1,4 @@
-document.querySelector('#button-1').addEventListener('click', function(){ console.log('The button was clicked!') });
+var count = 1;
+document.getElementById('button').onclick = function() {
+   alert("you have liked monkeys " + (count++) + " times");
+};
