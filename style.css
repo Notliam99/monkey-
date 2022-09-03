@@ -18,14 +18,25 @@ html, body {
     text-align: calc(center - 20px);
     top: 40%;
   }
-  .button {
+  .largebutton {
     border: none;
     color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration-color: black;
     display: inline-block;
-    font-size: 50%;
+    font-size: 20%;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .smallbutton {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 20%;
     margin: 4px 2px;
     cursor: pointer;
   }
@@ -36,9 +47,22 @@ html, body {
   }
   .button1:hover {
     color:black;
-    border: 5px solid black;
+    border: 10px solid black;
     background-color:beige;
   }
   .button1:active {
+    color: darkmagenta;
+  }
+  .button2 {
+    color: black;
+    border: 10px solid black;
+    background-color: bisque;
+  }
+  .button2:hover {
+    color:black;
+    border: 10px solid black;
+    background-color:beige;
+  }
+  .button2:active {
     color: darkmagenta;
   }
