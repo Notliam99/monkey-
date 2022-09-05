@@ -5,8 +5,8 @@ var button1resault = 'str'
 document.getElementById('button').onclick = function() {
    console.log("you have liked monkeys " + count + " times")
    alert("you have liked monkeys " + (count++) + " times");
-   // const monkey = await fetch(`https://api.mcverse.cf/monkey`);
-   // console.log(monkey)
+   const monkey = await fetch(`https://api.mcverse.cf/monkey`);
+   console.log(monkey);
 };
 document.getElementById('button1').onclick = function() {
    button1prompt = 'You Have Liked Monkeys ' + (count - 1) + ' Times. In Your Opion Are Monkeys Cool'
