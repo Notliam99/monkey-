@@ -2,10 +2,10 @@ var count = 1;
 var button1prompt = 'str'
 var button1resault = 'str'
 
-document.getElementById('button').onclick = function() {
+document.getElementById('button').onclick = async function() {
    console.log("you have liked monkeys " + count + " times")
    alert("you have liked monkeys " + (count++) + " times");
-   const monkey = await fetch(`https://api.mcverse.cf/monkey`);
+   const monkey = await fetch("https://api.mcverse.cf/monkey");
    console.log(monkey);
 };
 document.getElementById('button1').onclick = function() {
