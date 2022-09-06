@@ -7,7 +7,7 @@ document.getElementById('button').onclick = async function() {
    alert("you have liked monkeys " + (count++) + " times");
    const monkey = await fetch("https://api.mcverse.cf/monkey");
    const dada = await monkey.json();
-   alert(dada.mesage);
+   alert(dada.message);
 };
 document.getElementById('button1').onclick = function() {
    button1prompt = 'You Have Liked Monkeys ' + (count - 1) + ' Times. In Your Opion Are Monkeys Cool'
